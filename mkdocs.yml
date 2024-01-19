@@ -33,7 +33,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: deep orange
       accent: deep purple
       toggle:
         icon: material/weather-sunny
@@ -97,15 +97,31 @@ markdown_extensions:
   - pymdownx.highlight: # 支持代码块语法高亮，！！！跟mermaid冲突
   # - linenums: true # 显示行号
 
-# plugins:
-#   - changelog
-#   - search:
-#       lang: zh
-#   - git-revision-date-localized:
-#       type: datetime
-#       timezone: Asia/Shanghai
-#       locale: zh
-#       enable_creation_date: true
+extra:
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! 
+
+plugins:
+  # - changelog
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
 
 # extra_css:
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
@@ -122,13 +138,13 @@ markdown_extensions:
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
-# extra:
-#   social:
-#     - icon: fontawesome/brands/github
-#       link: https://github.com/Yaoyaolingbro/notebook/home
-#   analytics:
-#     provider: google
-#     property: G-KJB4RXSKZG
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dennis040116/dennis-notebook
+  analytics:
+    provider: google
+    property: G-KJB4RXSKZG
 
 
 nav:
