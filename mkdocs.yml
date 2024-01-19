@@ -73,7 +73,7 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols  #智能符号
-  # - pymdownx.superfences: # 可在列表等处嵌入块
+  - pymdownx.superfences # 可在列表等处嵌入块
   #     # make exceptions to highlighting of code:
   #     custom_fences:
   #         - name: mermaid
