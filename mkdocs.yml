@@ -97,15 +97,15 @@ markdown_extensions:
   - pymdownx.highlight: # 支持代码块语法高亮，！！！跟mermaid冲突
   # - linenums: true # 显示行号
 
-plugins:
-  - changelog
-  - search:
-      lang: zh
-  - git-revision-date-localized:
-      type: datetime
-      timezone: Asia/Shanghai
-      locale: zh
-      enable_creation_date: true
+# plugins:
+#   - changelog
+#   - search:
+#       lang: zh
+#   - git-revision-date-localized:
+#       type: datetime
+#       timezone: Asia/Shanghai
+#       locale: zh
+#       enable_creation_date: true
 
 # extra_css:
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
