@@ -1,4 +1,4 @@
-# Welcome to Dennis's notebok
+# Welcome to Dennis's notebok :smile:
 ## 前言
 
 !!! note 
