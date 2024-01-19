@@ -154,12 +154,12 @@ extra:
 nav:
   - Home: index.md
   - Webs and Tools:
-    -web_and_tool/index.md
-    -web_and_tool/toolbox.md
+    - web_and_tool/index.md
+    - web_and_tool/toolbox.md
     -Ladder:
-      -web_and_tool/ladder.md
+      - web_and_tool/ladder.md
     -Markdown:
-      -web_and_tool/markdown.md
+      - web_and_tool/markdown.md
     -Git:
-      -web_and_tool/git.md
+      - web_and_tool/git.md
     
