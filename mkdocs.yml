@@ -1,3 +1,135 @@
-site_name: My Docs
+site_name: Dennis's notebook
+site_url: https://dennis040116.github.io/dennis-notebook/
+site_author: dennis
+
+repo_url: https://github.com/dennis040116/dennis-notebook
+repo_name: dennis040116/dennis-notebook
+
+
 theme:
   name: material
+  features:
+    - navigation.tabs
+    # - navigation.sections
+    - navigation.prune
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    #　- navigation.expand
+    - navigation.tracking
+    - navigation.top
+    - header.autohide
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - material.extensions.emoji.twemoji
+    
+    
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+  
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols  #智能符号
+  - pymdownx.superfences: # 可在列表等处嵌入块
+      # make exceptions to highlighting of code:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - meta # 支持markdown博客文件头的元数据，比如标题
+  - toc:
+      permalink: "#"
+      baselevel: 1
+      separator: "_"
+  - attr_list 
+  - pymdownx.highlight: # 支持代码块语法高亮，！！！跟mermaid冲突
+  # - linenums: true # 显示行号
+
+plugins:
+  - changelog
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - css/custom.css
+  - css/card.css
+  - css/tasklist.css
+  - css/flink.css
+  - css/more_changelog.css
+  
+
+extra_javascript:
+  - js/baidu-tongji.js
+  - js/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yaoyaolingbro/notebook/home
+  analytics:
+    provider: google
+    property: G-KJB4RXSKZG
+
+
+nav:
+  - Home: index.md
