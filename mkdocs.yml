@@ -88,8 +88,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - footnotes
   - tables
   - meta # 支持markdown博客文件头的元数据，比如标题
@@ -154,12 +154,12 @@ extra:
 nav:
   - Home: index.md
   - Webs and Tools:
-    - web_and_tool/index.md
-    - web_and_tool/toolbox.md
+    - Webs and Tools/index.md
+    - Webs and Tools/toolbox.md
     -Ladder:
-      - web_and_tool/ladder.md
+      - Webs and Tools/ladder.md
     -Markdown:
-      - web_and_tool/markdown.md
+      - Webs and Tools/markdown.md
     -Git:
-      - web_and_tool/git.md
+      - Webs and Tools/git.md
     
