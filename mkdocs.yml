@@ -157,8 +157,8 @@ nav:
       - Webs_and_Tools/markdown.md
     - Git:
       - Webs_and_Tools/git.md
-  - My Course:
+  - "🎓 My Course":
     - my_course/index.md
-  - Course Rmd:
+  - "💯 Course Rmd":
     - course_rmd/index.md
     
