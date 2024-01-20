@@ -145,11 +145,11 @@ extra:
 
 
 nav:
-  - :house:Home : index.md
+  - ":house: Home" : index.md
 
-  - :wrench:Webs and Tools:
+  - ":wrench: Webs and Tools":
     - Webs_and_Tools/index.md
-    - :wrench:Toolbox  :
+    - Toolbox  :
       - Webs_and_Tools/toolbox.md
     - Ladder:
       - Webs_and_Tools/ladder.md
