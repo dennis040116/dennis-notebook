@@ -161,4 +161,5 @@ nav:
     - my_course/index.md
   - "💯 Course Rmd":
     - course_rmd/index.md
-    
+    - "📝 附录":
+      - course_rmd/appendix.md
