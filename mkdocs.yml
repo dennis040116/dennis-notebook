@@ -146,7 +146,6 @@ extra:
 
 nav:
   - "🏠 Home" : index.md
-
   - "🔧 Webs and Tools":
     - Webs_and_Tools/index.md
     - Toolbox  :
@@ -163,5 +162,5 @@ nav:
     - course_rmd/index.md
     - "📝 附录":
       - course_rmd/appendix.md
-  - "🚧 施工中..."
+  - "🚧 施工中...":
     - others/index.md
