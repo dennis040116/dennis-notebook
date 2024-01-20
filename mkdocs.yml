@@ -74,11 +74,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols  #智能符号
   - pymdownx.superfences # 可在列表等处嵌入块
-  #     # make exceptions to highlighting of code:
-  #     custom_fences:
-  #         - name: mermaid
-  #           class: mermaid
-  #           format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.tasklist:
@@ -101,21 +96,6 @@ markdown_extensions:
   - pymdownx.highlight: # 支持代码块语法高亮，！！！跟mermaid冲突
   # - linenums: true # 显示行号
 
-extra:
-  analytics: 
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! 
 
 plugins:
   # - changelog
@@ -147,20 +127,38 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/dennis040116/dennis-notebook
   analytics:
+      feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! 
     provider: google
     property: G-KJB4RXSKZG
 
 
 nav:
-  - Home: index.md
+  - Home:house: : index.md
 
-  - Webs_and_Tools:
+  - Webs and Tools:
     - Webs_and_Tools/index.md
-    - Webs_and_Tools/toolbox.md
+    - :wrench:Toolbox  :
+      - Webs_and_Tools/toolbox.md
     - Ladder:
       - Webs_and_Tools/ladder.md
     - Markdown:
       - Webs_and_Tools/markdown.md
     - Git:
       - Webs_and_Tools/git.md
+  - My Course:
+    - my_course/index.md
+  - Course Rmd:
+    - course_rmd/index.md
     
