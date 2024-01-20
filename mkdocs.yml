@@ -145,9 +145,9 @@ extra:
 
 
 nav:
-  - ":house: Home" : index.md
+  - "🏠 Home" : index.md
 
-  - ":wrench: Webs and Tools":
+  - "🔧 Webs and Tools":
     - Webs_and_Tools/index.md
     - Toolbox  :
       - Webs_and_Tools/toolbox.md
