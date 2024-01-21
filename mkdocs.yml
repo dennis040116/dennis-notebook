@@ -122,7 +122,16 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
+
+
 extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Chinese
+      link: /zh/
+      lang: zh
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dennis040116/dennis-notebook
